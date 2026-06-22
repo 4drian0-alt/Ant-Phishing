@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ant-Phishing</title>
+    <link rel="stylesheet" href="pagina1.css">
+</head>
+<body>
+<header class="header">
+    <h3 class="logo"s>Ant-Phishing</h3>
+    <nav class="menu">
+        <a href="#">Inicio</a>
+        <a href="Educacao.html">Educação</a>
+    </nav>
+</header>
+    <h1 id="Inicio">Ant-Phishing</h1>
+    <p>Insira o link suspeito</p>
+    <div id="verificar" class="box">
+        <input type="text" id="urlInput" placeholder="Cole o link">
+        <button onclick="verificar()"">Verificar</button>
+        <p id="resultado"></p>
+    </div>
+    <h3>Links Pesquisados</h3>
+    <div class="container-listas">
+        <div class="lista">
+            <h3>Suspeitos</h3>
+            <ul id="suspeito"></ul>
+        </div>
+        <div class="lista">
+            <h3>Seguros</h3>
+            <ul id="liberados"></ul>
+        </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>

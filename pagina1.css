@@ -1,0 +1,65 @@
+.header{
+    background-color: #08140e;
+    color: white;
+    text-align:left;
+    font-family: arial;
+    width: 100%;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+    top: 0;
+}
+.menu{
+    transform: translateX(-50%);
+}
+.menu a{
+    color:rgb(210, 213, 228);
+    text-decoration: none;
+}.menu a:hover{
+    color: rgb(14, 52, 15);
+}
+body{
+    background-image: url("wallpaperProjeto.jpg");
+    color: white;
+    text-align: center;
+    font-family: arial;
+    margin: 0;
+}
+input{
+    padding:12px 15px;
+    border-radius:10px;
+    border: 1px solid #08140e;
+    background-color: #08140e;
+    color:white;
+
+}
+button{
+    background-color: #08140e;
+    color:white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border:none;
+    font-size: 16px;
+    cursor:pointer;
+}
+.container-listas{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.lista{
+    width: 300px;
+}
+.lista ul{
+    list-style: none;
+    padding: 0;
+}
+.lista li{
+    background: #1e293b;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
